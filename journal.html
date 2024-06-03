@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>期刊</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="journal-page">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="introduction.html">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="journal.html">Journal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="topic.html">Topic</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="network.html">Network</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="map.html">Map</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4" id="journal-text">
+                <h2>Top 8 文献收录期刊</h2>
+                <div class="svg-container">
+                    <svg id="journal-chart" class="journal-chart"></svg>
+                </div>
+                <div class="description-container">
+                    <div class="description">
+                        <p><br>之后，我们筛选了收录最多文献的8个期刊，发现除了Bioinformatics，其他的期刊都收录较多的非精英文献期刊。
+                            <br>这可能与数据不平衡有关，而需后续更多的分析。
+                        </p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/journal_bar.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

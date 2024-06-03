@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精英作者聚集地</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body id="map-page">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="introduction.html">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="journal.html">Journal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="topic.html">Topic</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="network.html">Network</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="map.html">Map</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4" id="map-text">
+                <h2>精英机构的聚集地</h1>
+                <!-- Chart Container 1 -->
+                <div id="map-chart" class="map-chart-container"></div>
+                <div class="description-container">
+                    <div class="description">
+                        <p>上图中所有有蓝色点的地方均为存在着作者的地点。青色则为精英作者聚集地。
+                            <br>通过地图的展示，我们可以发现对于美国的精英作者聚集地，多数为美国藤校所在地。这是符合事实的。
+                            <br>其他地方则为如英国、中国上海北京等有诸多名校的地方。这是符合现实的。
+                            <br>东南亚的新加坡、澳洲的墨尔本亦是如此。
+                        </p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End Button -->
+    <a href="end.html" class="btn btn-primary end-button">结束旅程！</a>
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+     <!-- Bootstrap Bundle with Popper\Leafet -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+     <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/institution_heatmap.js"></script>
+</body>
+</html>
