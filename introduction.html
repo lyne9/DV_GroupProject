@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>介绍</title>
+    <title>概述</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -18,51 +18,55 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="introduction.html">Introduction</a>
+                            <a class="nav-link active" href="introduction.html">概述</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="journal.html">Journal</a>
+                            <a class="nav-link" href="author.html">作者</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="topic.html">Topic</a>
+                            <a class="nav-link" href="journal.html">期刊</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="network.html">Network</a>
-                        </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="map.html">Map</a>
+                            <a class="nav-link" href="topic.html">研究课题</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="network.html">合作网络</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="institution.html">机构</a>
                         </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4" id="introduction-text">
-                <!-- <h1>概述</h1>
-                <p class="desc1">基于作者的h指数，以Q3为划分标准，将作者分为精英和非精英作者。<br>Q3=31</p> -->
-                <h2>H指数 vs 被引量</h2>
-                <div class="btn-group mb-3" role="group" aria-label="Toggle charts" id="journal-bin-button">
-                    <button id="nonElite" class="btn btn-secondary">Non-Elite</button>
-                    <button id="elite" class="btn btn-secondary">Elite</button>
-                </div>
-                <div id="hindex-chart" class="hindex-chart"></div>
-                <div class="description-container">
-                    <div class="description">
-                        <p>“精英俱乐部”这一现象是否存在呢？
-                            <br>我们将探究文献被认可的原因，更多的来自于期本身的质量（被引量），还是作者的名声（h指数）。
-                            <br>我们根据中国计算机学会推荐国际学术期刊的人工智能领域期刊，选取全部4个A类期刊视为顶刊，通过论文所发表的期刊来解答文献是否被认可这一问题。
-                        </p>
-                        <p>4个A类期刊视作顶刊，具体为artificial intelligence、IEEE trans on pattern analysis and machine intelligence、international journal of computer vision、journal of machine learning research</p>
-                        <p>我们发现，对于精英作者低于100被引量但是h指数比较高的文献，也有被纳入顶刊的可能，
-                            <br>因此，我们推测：
-                            <br>(1) 顶刊或许会放一些精英的水作进入；
-                            <br>(2) 被引量少的文献不代表文献质量不好，从而获得评审的青睐；
-                        </p>
-                    </div>
-                </div>
-            </main>
+    <main role="main" class="container" id="introduction-text">
+        <h1>概述</h1>
+        <p>从2000年至2020年，在AI研究领域中，是否存在“精英俱乐部”的现象呢？
+            <br>通过这一数据集中对作者的H指数分布的观察，我们选取了H指数分布中的Q3作为精英作者的划分标准。<br>
+            <br>接下来，我们将探究文献被认可的原因，即其更多的是来自于文献本身的质量（被引量），还是作者的名声（第一作者的h指数）作为这一研究问题的引入。
+            <br>我们根据中国计算机学会推荐国际学术期刊的人工智能领域期刊，将其认定的4个A类期刊视为顶刊，通过论文所发表的期刊来解答文献是否被认可这一问题。<br>
+            <br>这些期刊分别是：
+            <br>（1）Artificial Intelligence；
+            <br>（2）IEEE Trans on Pattern Analysis and Machine Intelligence；
+            <br>（3）International Journal of Computer Vision；
+            <br>（4）Journal of Machine Learning Research。
+        </p>
+        <h2>H指数 vs 被引量</h2>
+        <div class="btn-group mb-3" role="group" aria-label="Toggle charts" id="journal-bin-button">
+            <button id="nonElite" class="btn btn-secondary">非顶刊</button>
+            <button id="elite" class="btn btn-secondary">顶刊</button>
         </div>
-    </div>
+        <div id="hindex-chart" class="hindex-chart"></div>
+        <div class="description-container">
+            <div class="description">
+
+                <p>我们发现，对于精英作者而言，被引量较低的文献，也有被纳入顶刊的可能，
+                    <br>因此，我们推测：顶刊或许会放一些精英的水作进入，这说明在AI领域确实存在一定的“精英俱乐部”现象。
+                </p>
+            </div>
+        </div>
+    </main>
 
     <!-- D3.js -->
     <script src="https://d3js.org/d3.v6.min.js"></script>

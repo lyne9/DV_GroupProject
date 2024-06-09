@@ -44,7 +44,7 @@ function drawChart() {
         .data(data)
         .enter().append("rect")
         .attr("class", "bar elite")
-        .style("fill", "#F93E52")
+        .style("fill", "#c21a09") // Set fill color for elite authors
         .attr("x", function(d) { return x(d.journal); })
         .attr("width", x.bandwidth() / 2)
         .attr("y", function(d) { return y(d.count_elite); })
@@ -53,7 +53,7 @@ function drawChart() {
             tooltip.transition()
                 .duration(200)
                 .style("opacity", .9);
-            tooltip.html("Elite: " + d.count_elite)
+            tooltip.html("精英: " + d.count_elite)
                 .style("left", (event.pageX + 5) + "px")
                 .style("top", (event.pageY - 28) + "px");
         })
@@ -67,7 +67,7 @@ function drawChart() {
         .data(data)
         .enter().append("rect")
         .attr("class", "bar not_elite")
-        .style("fill", "#81E0FE")
+        .style("fill", "#daa520") // Set fill color for non-elite authors
         .attr("x", function(d) { return x(d.journal) + x.bandwidth() / 2; })
         .attr("width", x.bandwidth() / 2)
         .attr("y", function(d) { return y(d.count_not_elite); })
@@ -76,7 +76,7 @@ function drawChart() {
             tooltip.transition()
                 .duration(200)
                 .style("opacity", .9);
-            tooltip.html("Not Elite: " + d.count_not_elite)
+            tooltip.html("非精英: " + d.count_not_elite)
                 .style("left", (event.pageX + 5) + "px")
                 .style("top", (event.pageY - 28) + "px");
         })
@@ -96,13 +96,13 @@ function drawChart() {
         .attr("y", 0)
         .attr("width", 10)
         .attr("height", 10)
-        .style("fill", "#F93E52");
+        .style("fill", "#c21a09"); // Elite author color
 
     legend.append("text")
         .attr("x", 20)
         .attr("y", 10)
         .attr("dy", ".35em")
-        .text("Elite Authors")
+        .text("精英作者")
         .attr("fill", "white");
 
     legend.append("rect")
@@ -110,13 +110,13 @@ function drawChart() {
         .attr("y", 20)
         .attr("width", 10)
         .attr("height", 10)
-        .style("fill", "#81E0FE");
+        .style("fill", "#daa520"); // Non-elite author color
 
     legend.append("text")
         .attr("x", 20)
         .attr("y", 30)
         .attr("dy", ".35em")
-        .text("Non-Elite Authors")
+        .text("非精英作者")
         .attr("fill", "white");
 }
 

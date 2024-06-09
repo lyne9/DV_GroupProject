@@ -1,0 +1,101 @@
+author_id,author_name,author_institution,author_institution_country,summary_stats,h_index,is_elite
+https://openalex.org/A5027835055,Jun Li,Sun Yat-sen University,China,"{'2yr_mean_citedness': 4.296235921754594, 'h_index': 305, 'i10_index': 11681}",305,1
+https://openalex.org/A5020748592,Eric S. Lander,Brigham and Women's Hospital,United States,"{'2yr_mean_citedness': 15.961538461538462, 'h_index': 283, 'i10_index': 570}",283,1
+https://openalex.org/A5036125002,Zhong Lin Wang,Georgia Institute of Technology,United States,"{'2yr_mean_citedness': 16.32951289398281, 'h_index': 282, 'i10_index': 2460}",282,1
+https://openalex.org/A5046597133,Wei Wang,Chinese Academy of Sciences,China,"{'2yr_mean_citedness': 4.062447257383966, 'h_index': 266, 'i10_index': 12953}",266,1
+https://openalex.org/A5042962646,Douglas G. Altman,University of Oxford,United Kingdom,"{'2yr_mean_citedness': 6.266666666666667, 'h_index': 255, 'i10_index': 732}",255,1
+https://openalex.org/A5042241049,Jun Wang,University College London,United Kingdom,"{'2yr_mean_citedness': 4.268973471741638, 'h_index': 254, 'i10_index': 7725}",254,1
+https://openalex.org/A5049692788,Yang Yang,University of Electronic Science and Technology of China,China,"{'2yr_mean_citedness': 4.99665719538693, 'h_index': 250, 'i10_index': 9238}",250,1
+https://openalex.org/A5000432967,Wei Li,,,"{'2yr_mean_citedness': 4.042492012779553, 'h_index': 249, 'i10_index': 9737}",249,1
+https://openalex.org/A5066716873,Li Zhang,University of Oxford,United Kingdom,"{'2yr_mean_citedness': 4.026998961578401, 'h_index': 247, 'i10_index': 11046}",247,1
+https://openalex.org/A5082857859,Jun Chen,Huazhong University of Science and Technology,China,"{'2yr_mean_citedness': 6.205222171323866, 'h_index': 245, 'i10_index': 4308}",245,1
+https://openalex.org/A5027475930,Li Li,Max Planck Institute of Microstructure Physics,Germany,"{'2yr_mean_citedness': 4.221590909090909, 'h_index': 241, 'i10_index': 10905}",241,1
+https://openalex.org/A5017541508,Wei Chen,Zhejiang University,China,"{'2yr_mean_citedness': 4.430468554247056, 'h_index': 241, 'i10_index': 7158}",241,1
+https://openalex.org/A5086852785,Karl J. Friston,Wellcome Centre for Human Neuroimaging,United Kingdom,"{'2yr_mean_citedness': 5.831325301204819, 'h_index': 238, 'i10_index': 975}",238,1
+https://openalex.org/A5090940750,Matthias Mann,,,"{'2yr_mean_citedness': 11.226190476190476, 'h_index': 233, 'i10_index': 796}",233,1
+https://openalex.org/A5060002817,Ying Li,Changsha University of Science and Technology,China,"{'2yr_mean_citedness': 4.043569131832798, 'h_index': 232, 'i10_index': 9505}",232,1
+https://openalex.org/A5037677450,Jing Wang,Bournemouth University,United Kingdom,"{'2yr_mean_citedness': 4.158198614318707, 'h_index': 229, 'i10_index': 8829}",229,1
+https://openalex.org/A5039837606,Qiang Zhang,Tianjin Medical University Cancer Institute and Hospital,China,"{'2yr_mean_citedness': 5.640159045725646, 'h_index': 228, 'i10_index': 4368}",228,1
+https://openalex.org/A5091595592,Paul M. Ridker,Brigham and Women's Hospital,United States,"{'2yr_mean_citedness': 23.34020618556701, 'h_index': 228, 'i10_index': 935}",228,1
+https://openalex.org/A5004515522,Christopher J L Murray,Institute for Health Metrics and Evaluation,United States,"{'2yr_mean_citedness': 124.0561797752809, 'h_index': 226, 'i10_index': 694}",226,1
+https://openalex.org/A5071037763,Wei Liu,University of North Carolina at Chapel Hill,United States,"{'2yr_mean_citedness': 4.6002100840336135, 'h_index': 222, 'i10_index': 7271}",222,1
+https://openalex.org/A5064842058,Yang Li,Microsoft Research Asia (China),China,"{'2yr_mean_citedness': 4.183278145695364, 'h_index': 222, 'i10_index': 7889}",222,1
+https://openalex.org/A5023363049,Yang Liu,New Jersey Institute of Technology,United States,"{'2yr_mean_citedness': 4.2919921875, 'h_index': 222, 'i10_index': 8262}",222,1
+https://openalex.org/A5018378907,Tamara B. Harris,National Institutes of Health,United States,"{'2yr_mean_citedness': 19.555555555555557, 'h_index': 221, 'i10_index': 1092}",221,1
+https://openalex.org/A5086664284,Yan Zhang,Simula Research Laboratory,Norway,"{'2yr_mean_citedness': 4.386056392429509, 'h_index': 220, 'i10_index': 8258}",220,1
+https://openalex.org/A5020886846,Trevor W. Robbins,University of Cambridge,United Kingdom,"{'2yr_mean_citedness': 8.243243243243244, 'h_index': 220, 'i10_index': 800}",220,1
+https://openalex.org/A5012278873,Li Wang,University of Illinois at Chicago,United States,"{'2yr_mean_citedness': 3.297273960774639, 'h_index': 216, 'i10_index': 10064}",216,1
+https://openalex.org/A5072968010,Fred H. Gage,Salk Institute for Biological Studies,United States,"{'2yr_mean_citedness': 9.277777777777779, 'h_index': 215, 'i10_index': 724}",215,1
+https://openalex.org/A5012677271,Jing Li,Civil Aviation University of China,China,"{'2yr_mean_citedness': 4.0828582288103386, 'h_index': 214, 'i10_index': 7891}",214,1
+https://openalex.org/A5032764121,Jian Wang,,,"{'2yr_mean_citedness': 3.9486428951569983, 'h_index': 213, 'i10_index': 5938}",213,1
+https://openalex.org/A5044544424,Yi Zhang,Google (United States),United States,"{'2yr_mean_citedness': 4.140037593984962, 'h_index': 212, 'i10_index': 6199}",212,1
+https://openalex.org/A5056450584,Hua Zhang,Zhejiang Gongshang University,China,"{'2yr_mean_citedness': 4.705547652916074, 'h_index': 212, 'i10_index': 2807}",212,1
+https://openalex.org/A5006822602,Xin Wang,Harbin Institute of Technology,China,"{'2yr_mean_citedness': 4.379201887163358, 'h_index': 210, 'i10_index': 6955}",210,1
+https://openalex.org/A5035240489,Eugene V. Koonin,National Center for Biotechnology Information,United States,"{'2yr_mean_citedness': 7.8352272727272725, 'h_index': 210, 'i10_index': 927}",210,1
+https://openalex.org/A5073216396,Lei Wang,Institute of Physics,China,"{'2yr_mean_citedness': 4.887523468168629, 'h_index': 209, 'i10_index': 9304}",209,1
+https://openalex.org/A5018863416,Ying Wang,Institute of Automation,China,"{'2yr_mean_citedness': 4.0186335403726705, 'h_index': 207, 'i10_index': 7266}",207,1
+https://openalex.org/A5022526821,Xin Li,Oregon State University,United States,"{'2yr_mean_citedness': 4.27291930713984, 'h_index': 206, 'i10_index': 6662}",206,1
+https://openalex.org/A5013881064,Huan Liu,Arizona State University,United States,"{'2yr_mean_citedness': 4.4792122538293215, 'h_index': 204, 'i10_index': 4402}",204,1
+https://openalex.org/A5026197656,Raymond J. Dolan,National Hospital for Neurology and Neurosurgery,United Kingdom,"{'2yr_mean_citedness': 10.806451612903226, 'h_index': 203, 'i10_index': 691}",203,1
+https://openalex.org/A5003759585,Hui Zhang,Carnegie Mellon University,United States,"{'2yr_mean_citedness': 4.175539568345323, 'h_index': 203, 'i10_index': 5553}",203,1
+https://openalex.org/A5033881627,Rob Knight,University of Colorado Boulder,United States,"{'2yr_mean_citedness': 12.357843137254902, 'h_index': 202, 'i10_index': 667}",202,1
+https://openalex.org/A5088028306,Harlan M. Krumholz,Robert Wood Johnson Foundation,United States,"{'2yr_mean_citedness': 6.271186440677966, 'h_index': 201, 'i10_index': 1057}",201,1
+https://openalex.org/A5085352453,Jie Liu,Lehigh University,United States,"{'2yr_mean_citedness': 3.902546689303905, 'h_index': 201, 'i10_index': 4834}",201,1
+https://openalex.org/A5003642180,Yan Wang,Dalian University of Technology,China,"{'2yr_mean_citedness': 4.070054752211147, 'h_index': 200, 'i10_index': 9338}",200,1
+https://openalex.org/A5090366405,Hui Wang,Ocean University of China,China,"{'2yr_mean_citedness': 4.187273167190902, 'h_index': 200, 'i10_index': 6472}",200,1
+https://openalex.org/A5042012998,Zhenan Bao,Stanford University,United States,"{'2yr_mean_citedness': 16.06312292358804, 'h_index': 199, 'i10_index': 1052}",199,1
+https://openalex.org/A5019646038,Mark J. Daly,Massachusetts General Hospital,United States,"{'2yr_mean_citedness': 18.25, 'h_index': 198, 'i10_index': 590}",198,1
+https://openalex.org/A5071773009,Yu Zhang,University of Illinois Urbana-Champaign,United States,"{'2yr_mean_citedness': 3.9361999650410766, 'h_index': 198, 'i10_index': 7034}",198,1
+https://openalex.org/A5045246745,Ronald C. Petersen,Mayo Clinic in Arizona,United States,"{'2yr_mean_citedness': 8.60483870967742, 'h_index': 195, 'i10_index': 991}",195,1
+https://openalex.org/A5049078993,Peng Wang,Baidu (China),China,"{'2yr_mean_citedness': 5.337742980561555, 'h_index': 195, 'i10_index': 5173}",195,1
+https://openalex.org/A5001392592,Gad Getz,Broad Institute,United States,"{'2yr_mean_citedness': 11.664179104477611, 'h_index': 193, 'i10_index': 398}",193,1
+https://openalex.org/A5086529957,Fei Wang,Group Sense (China),China,"{'2yr_mean_citedness': 4.602092760180995, 'h_index': 191, 'i10_index': 5700}",191,1
+https://openalex.org/A5039652993,R. S. J. Frackowiak,Wellcome Centre for Human Neuroimaging,United Kingdom,"{'2yr_mean_citedness': 7.0, 'h_index': 191, 'i10_index': 437}",191,1
+https://openalex.org/A5010738468,Lei Chen,Hefei University of Technology,China,"{'2yr_mean_citedness': 3.942017781213761, 'h_index': 191, 'i10_index': 4222}",191,1
+https://openalex.org/A5071672663,Jun Zhang,University of North Carolina at Chapel Hill,United States,"{'2yr_mean_citedness': 4.020208205756277, 'h_index': 189, 'i10_index': 5437}",189,1
+https://openalex.org/A5079594267,Yu Wang,,,"{'2yr_mean_citedness': 4.208139792081398, 'h_index': 189, 'i10_index': 5641}",189,1
+https://openalex.org/A5053447705,Fan Zhang,Zhejiang University,China,"{'2yr_mean_citedness': 3.931136738056013, 'h_index': 189, 'i10_index': 3934}",189,1
+https://openalex.org/A5063253432,Chen Chen,University of Central Florida,United States,"{'2yr_mean_citedness': 4.459920106524634, 'h_index': 188, 'i10_index': 4763}",188,1
+https://openalex.org/A5005566965,Mark Hallett,National Institutes of Health,United States,"{'2yr_mean_citedness': 3.7651006711409396, 'h_index': 188, 'i10_index': 893}",188,1
+https://openalex.org/A5049341927,Hao Zhang,,,"{'2yr_mean_citedness': 4.336585365853659, 'h_index': 187, 'i10_index': 5527}",187,1
+https://openalex.org/A5042973046,Ying Zhang,Dalian University of Technology,China,"{'2yr_mean_citedness': 3.987034035656402, 'h_index': 187, 'i10_index': 5478}",187,1
+https://openalex.org/A5057209439,Jian Zhang,Yangpu Hospital of Tongji University,China,"{'2yr_mean_citedness': 4.3174051549377355, 'h_index': 187, 'i10_index': 5533}",187,1
+https://openalex.org/A5046881277,Bin Zhang,Institute of Oceanology,China,"{'2yr_mean_citedness': 4.71741935483871, 'h_index': 187, 'i10_index': 3655}",187,1
+https://openalex.org/A5053361384,Ruedi Aebersold,University of Zurich,Switzerland,"{'2yr_mean_citedness': 5.633802816901408, 'h_index': 187, 'i10_index': 788}",187,1
+https://openalex.org/A5052274720,Feng Zhang,Queen's University,Canada,"{'2yr_mean_citedness': 4.154545454545454, 'h_index': 187, 'i10_index': 2892}",187,1
+https://openalex.org/A5018073672,Yu Liu,Zhejiang University,China,"{'2yr_mean_citedness': 3.7886029411764706, 'h_index': 186, 'i10_index': 6018}",186,1
+https://openalex.org/A5035282947,Jing Liu,Tianjin University,China,"{'2yr_mean_citedness': 4.046172916021072, 'h_index': 186, 'i10_index': 5201}",186,1
+https://openalex.org/A5074309419,Peer Bork,Max Delbrück Center for Molecular Medicine,Germany,"{'2yr_mean_citedness': 31.243243243243242, 'h_index': 186, 'i10_index': 489}",186,1
+https://openalex.org/A5067255019,Ralph Weissleder,Center for Systems Biology,United States,"{'2yr_mean_citedness': 10.267857142857142, 'h_index': 185, 'i10_index': 933}",185,1
+https://openalex.org/A5070446713,John P. A. Ioannidis,Innovative Research (United States),United States,"{'2yr_mean_citedness': 8.736, 'h_index': 185, 'i10_index': 812}",185,1
+https://openalex.org/A5084452813,Zhuang Liu,Tsinghua University,China,"{'2yr_mean_citedness': 13.101045296167248, 'h_index': 184, 'i10_index': 809}",184,1
+https://openalex.org/A5008171524,Xi Chen,Vanderbilt University,United States,"{'2yr_mean_citedness': 3.593461030383091, 'h_index': 184, 'i10_index': 4357}",184,1
+https://openalex.org/A5068353058,David Moher,Ottawa Hospital,Canada,"{'2yr_mean_citedness': 148.11258278145695, 'h_index': 184, 'i10_index': 678}",184,1
+https://openalex.org/A5021293751,Yan Liu,Southern California University for Professional Studies,United States,"{'2yr_mean_citedness': 3.4234910277324633, 'h_index': 183, 'i10_index': 4501}",183,1
+https://openalex.org/A5048826252,Bin Liu,ORCID,United States,"{'2yr_mean_citedness': 4.942951438000943, 'h_index': 183, 'i10_index': 3708}",183,1
+https://openalex.org/A5008659449,Yi Liu,Michigan State University,United States,"{'2yr_mean_citedness': 4.029245596543702, 'h_index': 183, 'i10_index': 4323}",183,1
+https://openalex.org/A5052676364,Yu Chen,Hong Kong Polytechnic University,Hong Kong,"{'2yr_mean_citedness': 4.097723292469352, 'h_index': 183, 'i10_index': 3490}",183,1
+https://openalex.org/A5031315906,Na Li,CCCC Highway Consultants (China),China,"{'2yr_mean_citedness': 4.727863046044864, 'h_index': 182, 'i10_index': 5226}",182,1
+https://openalex.org/A5064222660,Yong Zhang,Peking University,China,"{'2yr_mean_citedness': 3.95137325529041, 'h_index': 181, 'i10_index': 3988}",181,1
+https://openalex.org/A5070378593,Philippe Ciais,Laboratoire des Sciences du Climat et de l'Environnement,France,"{'2yr_mean_citedness': 7.8604651162790695, 'h_index': 181, 'i10_index': 939}",181,1
+https://openalex.org/A5073501391,Jie Zhang,Nanyang Technological University,Singapore,"{'2yr_mean_citedness': 3.940391254315305, 'h_index': 181, 'i10_index': 6526}",181,1
+https://openalex.org/A5055838753,Chao Wang,Southern California University for Professional Studies,United States,"{'2yr_mean_citedness': 4.469933854479856, 'h_index': 181, 'i10_index': 5022}",181,1
+https://openalex.org/A5076699095,Wei Zhang,Harbin Institute of Technology,China,"{'2yr_mean_citedness': 3.6400560224089635, 'h_index': 180, 'i10_index': 4841}",180,1
+https://openalex.org/A5044048476,Eric Boerwinkle,Baylor College of Medicine,United States,"{'2yr_mean_citedness': 15.28061224489796, 'h_index': 180, 'i10_index': 1013}",180,1
+https://openalex.org/A5023888505,C. D. Frith,Wellcome Centre for Human Neuroimaging,United Kingdom,"{'2yr_mean_citedness': 0.0, 'h_index': 180, 'i10_index': 425}",180,1
+https://openalex.org/A5052145058,Stephen V. Faraone,SUNY Upstate Medical University,United States,"{'2yr_mean_citedness': 15.612244897959183, 'h_index': 180, 'i10_index': 1152}",180,1
+https://openalex.org/A5043264677,Daniel R. Weinberger,National Institute of Mental Health,United States,"{'2yr_mean_citedness': 15.426229508196721, 'h_index': 180, 'i10_index': 802}",180,1
+https://openalex.org/A5059438505,John C. Reed,Sanford Burnham Prebys Medical Discovery Institute,United States,"{'2yr_mean_citedness': 1.5714285714285714, 'h_index': 180, 'i10_index': 802}",180,1
+https://openalex.org/A5041573207,Takashi Taniguchi,The University of Tokyo,Japan,"{'2yr_mean_citedness': 6.338805970149254, 'h_index': 180, 'i10_index': 1508}",180,1
+https://openalex.org/A5071798264,Lei Zhang,Hong Kong Polytechnic University,Hong Kong,"{'2yr_mean_citedness': 3.576769339289913, 'h_index': 179, 'i10_index': 4225}",179,1
+https://openalex.org/A5035701638,Tao Zhang,University of Birmingham,United Kingdom,"{'2yr_mean_citedness': 4.36051637279597, 'h_index': 179, 'i10_index': 4785}",179,1
+https://openalex.org/A5046557560,Joel Schwartz,Harvard University,United States,"{'2yr_mean_citedness': 10.756756756756756, 'h_index': 179, 'i10_index': 888}",179,1
+https://openalex.org/A5088998527,David M. Holtzman,,,"{'2yr_mean_citedness': 18.684931506849313, 'h_index': 178, 'i10_index': 516}",178,1
+https://openalex.org/A5063481044,Li Liu,Shenzhen University Health Science Center,China,"{'2yr_mean_citedness': 4.104333868378812, 'h_index': 177, 'i10_index': 6019}",177,1
+https://openalex.org/A5029360035,Peng Zhang,Tianjin University,China,"{'2yr_mean_citedness': 4.507878787878788, 'h_index': 177, 'i10_index': 4712}",177,1
+https://openalex.org/A5037989560,Li Chen,Northwest Normal University,China,"{'2yr_mean_citedness': 4.382898351648351, 'h_index': 177, 'i10_index': 5369}",177,1
+https://openalex.org/A5044264078,Peter B. Reich,Minnesota Department of Natural Resources,United States,"{'2yr_mean_citedness': 12.337349397590362, 'h_index': 177, 'i10_index': 700}",177,1
+https://openalex.org/A5053011724,Jeroen J. Bax,Leiden University Medical Center,Netherlands,"{'2yr_mean_citedness': 6.837455830388692, 'h_index': 177, 'i10_index': 1374}",177,1
+https://openalex.org/A5063630764,John C. Morris,,,"{'2yr_mean_citedness': 5.065326633165829, 'h_index': 177, 'i10_index': 704}",177,1
+https://openalex.org/A5059626751,Richard A. Gibbs,Baylor College of Medicine,United States,"{'2yr_mean_citedness': 9.60483870967742, 'h_index': 176, 'i10_index': 724}",176,1
+https://openalex.org/A5002163035,Tim D. Spector,King's College London,United Kingdom,"{'2yr_mean_citedness': 27.973333333333333, 'h_index': 176, 'i10_index': 858}",176,1
