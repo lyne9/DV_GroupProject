@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>机构</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body id="map-page">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="introduction.html">概述</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="author.html">作者</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="journal.html">期刊</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="topic.html">研究课题</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="network.html">合作网络</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="institution.html">机构</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="container" id="map-text">
+        <h2>全球机构分布</h2>
+        <!-- Chart Container 1 -->
+        <div>
+            <label for="country-select">请选择一个国家/地区:</label>
+            <select id="country-select">
+                <option value="">--选择一个国家/地区--</option>
+            </select>
+        </div>
+        <div id="map-chart" class="map-chart-container"></div>
+        <div class="description-container">
+            <div class="description">
+                <p>我们想要知道精英机构是否存在聚集性。
+                    <br>精英机构划分规则：当一个机构存在大于或等于20%（八二法则）的作者是精英作者，就属于精英机构。<br>
+                    <br>从上图，可以发现，精英机构存在聚集性，其中的聚集地分别为：
+                    <br>（1）美国，如洛杉矶、旧金山和纽约等地；
+                    <br>（2）欧洲，如法国、英国和德国等地；
+                    <br>（3）中国，如北京、上海和香港等地；
+                    <br>（4）澳洲，如悉尼、墨尔本等地；
+                    <br>（5）日本；
+                    <br>其他地方如非洲、南美、印度、东南亚（除新加坡以外）等地区则较少精英机构。<br>
+                    <br>这与现实相符合，因为上述的精英机构聚集地不仅名校多，属于在QS排行榜上的高校等，AI的研究也是由美国、欧洲和中国等引领着领域的发展。
+                    这就导致了这些地方会聚集着AI研究领域的精英高校，研究所等等。<br>
+                    <br>通过选择国家，便可将地图缩放至该国家的研究机构分布地图。同时，也可以点击图上圆点获取机构信息。往下，则可通过选择机构获取机构详情。
+                </p>
+            </div>
+        </div>
+        <div>
+            <h2>机构详情</h2>
+            <label for="institution-select">请选择机构获取详情:</label>
+            <select id="institution-select">
+                <option value="">--选择一个机构--</option>
+            </select>
+        </div>
+        <div id="institution-bar" class="institution-chart-container">
+        </div>
+        <div id="institution-dist" class="institution-chart-container">
+        </div>
+        <div id="author-table"></div>
+    </main>
+
+    <!-- End Button -->
+    <a href="end.html" class="btn btn-primary end-button">结束旅程！</a>
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Bootstrap Bundle with Popper\Leafet -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/institution_scattermap.js"></script>
+    <script src="js/institution_author.js"></script>
+</body>
+</html>

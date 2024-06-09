@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>期刊</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="journal-page">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="introduction.html">概述</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="author.html">作者</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="journal.html">期刊</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="topic.html">研究课题</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="network.html">合作网络</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="institution.html">机构</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+            <main role="main" class="container" id="journal-text">
+                <h2>Top 8 文献收录期刊</h2>
+                <div class="svg-container">
+                    <svg id="journal-chart" class="journal-chart"></svg>
+                </div>
+                <div class="description-container">
+                    <div class="description">
+                        <p>
+                            <br>我们想知道是否有期同时收到了来自精英与非精英作者的喜爱。<br>
+                            <br>针对精英与非精英作者的期刊发表情况，我们根据分类，分别统计了精英作者数量与非精英作者数量最多的前十个期刊，并取了二者的交集。<br>
+                            <br>从可视化结果上我们发现：
+                            <br>（1）非精英作者的数量远超精英作者的数量，其中，IEEE access收录的作者数量最多。
+                            <br>（2）除了Bioinformatics期刊，基本上每一类期刊中，非精英作者的数量都超过了精英作者。这属于正常现象，因为数据显示的是两类作者嘱意期刊的交集，而精英作者是群体内的小部分人群。<br>
+                            <br>但从结果上，我们会发现，这8个期刊都是两类作者的首要投稿选择。IEEE作为全球最大的非营利性专业技术学会，普遍受到全球AI研究者的青睐。
+                            <br>交叉了数学、信息学、统计学和计算机科学的生物信息学类期刊-Bioinformatics收录的文章质量较其他期刊更高一些，在AI特别是生物AI领域的影响程度更大一些。
+                        </p>
+                    </div>
+                </div>
+            </main>
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/journal_bar.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

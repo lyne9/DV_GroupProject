@@ -1,0 +1,551 @@
+/* Common Styles */
+body {
+    font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue", Arial,
+    "Noto Sans",
+    "Liberation Sans",
+    sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container-fluid {
+    padding: 10px;
+}
+
+/* Specific Styles for Index Page */
+#index-page {
+    background-image: url('../data/img/index_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.index-text-center {
+    position: absolute;
+    top: 50%; /* Adjust top positioning as needed */
+    left: 50%; /* Adjust left positioning as needed */
+    transform: translate(-50%, -50%); /* Center the text vertically and horizontally */
+    text-align: center; /* Align the text center */
+    color: #f8f9fa; /* Set text color */
+}
+
+.index-text-center h1 {
+    font-size: 50px; /* Adjust font size as needed */
+    margin-bottom: 60px; /* Adjust spacing between text elements */
+    font-weight: bold;
+}
+
+.index-text-center p {
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+#index-start-button {
+    margin-top: 80px;
+}
+
+
+/* Specific Styles for Transition Page */
+#transition-page {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: #03002F;
+}
+
+#floating-words {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.word {
+    position: absolute;
+    font-size: 2em;
+    color: #f8f9fa;
+    white-space: nowrap;
+    animation: float 10s infinite linear;
+}
+
+#transition-page p{
+    color:aliceblue;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: translateY(-100vh);
+    }
+}
+
+#transition-next-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#transition-next-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Specific Styles for Introduction Page */
+#introduction-page {
+    background-color: #03002F;
+}
+
+#introduction-text {
+    color: #f8f9fa;
+}
+
+#introduction-text h1 {
+    font-weight: bold;
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#introduction-text h2 {
+    font-weight: bold;
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#introduction-text p {
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#journal-bin-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#introduction-page.legend {
+    color: #f8f9fa;
+}
+
+/* Specific Styles for Author Page */
+#author-page {
+    background: #03002F;
+
+}
+
+#author-text label {
+    color: #f8f9fa;
+    margin-left: 10px;
+}
+
+#author-text h1, h2 {
+    color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#author-select {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #f8f9fa;
+    background-color: #03002F;
+}
+
+#author-info {
+    margin: 15px;
+    margin-top: 20px;
+    color: #f8f9fa;
+}
+
+#works-table table {
+    width: 98%;
+    border-collapse: collapse;
+    margin: 10px;
+    border: 1px solid #f8f9fa;
+}
+
+#works-table td {
+    text-align: left;
+    color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+
+#works-table th {
+    background-color: #03002F;
+    text-align: left;
+    color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+
+
+/* Specific Styles for Journal Page */
+#journal-page {
+    background-color: #03002F;
+}
+
+#journal-text {
+    color: #f8f9fa;
+}
+
+#journal-text h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #f8f9fa;
+}
+
+#journal-text h2 {
+    font-weight: bold;
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#journal-text p {
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.journal-chart {
+    font: 10px sans-serif;
+    width: 100%;
+}
+.bar {
+    fill: rgb(148, 192, 227);
+}
+.bar:hover {
+    fill: orange;
+}
+.axis {
+    font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.legend {
+    font-size: 12px;
+    display: inline-block;
+    padding: 6px;
+}
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    height: auto;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* Specific Styles for Topic Page */
+#topic-page {
+    background-color: #03002F;
+}
+
+.chart-container {
+    position: relative; /* Set the container as relative positioning */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 10px;
+}
+
+.topic-chart1-container,
+.topic-chart2-container {
+    width: 100%;
+    height: 400px;
+}
+
+#topic-text {
+    color: #f8f9fa;
+    position: relative;
+}
+
+#topic-text h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #f8f9fa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#topic-text h2 {
+    font-weight: bold;
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#topic-text p {
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#elite-chart,
+#nonelite-chart {
+    width: 50%; /* Set the width to 50% to render side by side */
+    display: inline-block; /* Display as inline-block to render side by side */
+}
+
+
+
+/* Specific Styles for Network Page */
+#network-page {
+    background-color: #03002F;
+}
+#network-chart .node.elite { 
+    fill: #c21a09; 
+}
+#network-chart .node.non-elite { 
+    fill: #daa520; 
+}
+#network-chart .link { 
+    stroke: #999; 
+    stroke-opacity: 0.6; 
+}
+#network-chart .legend { 
+    font-size: 12px; 
+}
+#network-chart .legend rect { 
+    stroke: black; 
+    stroke-width: 1px; 
+}
+#network-chart .svg {  
+    width: 100%;
+    height: 100vh; 
+}
+
+#network-page #loading-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: none;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+#network-page #loading-message .loading-text {
+    animation: blink 1s infinite;
+}
+
+#network-text h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#network-text h2 {
+    font-weight: bold;
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#network-text-desc p {
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Specific Styles for Institution Page */
+#map-page {
+    background-color: #03002F;
+}
+
+#map-text {
+    color: #f8f9fa;
+}
+
+#map-text h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#map-text h2 {
+    font-weight: bold;
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#map-text p {
+    text-align: left;
+    color: #f8f9fa;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#map-chart {
+    width: 100%;
+    height: 400px;
+}
+
+#map-page .legend {
+    background: #f8f9fa;
+    padding: 10px;
+    line-height: 18px;
+    color: #333;
+}
+
+#map-page .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+#country-select {
+    margin: 10px;
+}
+
+.institution-chart-container {
+    width: 45%; /* Adjust as needed */
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between charts */
+    margin-bottom: 20px; /* Adjust vertical spacing */
+}
+
+/* Responsive design: For smaller screens, adjust the layout */
+@media (max-width: 1024px) {
+    .institution-chart-container {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+    }
+
+    #institution-select {
+        margin: 10px;
+        width: 100%;
+    }
+}
+
+#institution-select {
+    margin: 10px;
+}
+
+#map-text table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+map-text th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.end-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+/* Specific Styles for End Page */
+#end-page {
+    background-image: url('../data/img/index_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.end-text-center {
+    position: absolute;
+    top: 50%; /* Adjust top positioning as needed */
+    left: 50%; /* Adjust left positioning as needed */
+    transform: translate(-50%, -50%); /* Center the text vertically and horizontally */
+    text-align: center; /* Align the text center */
+    color: #f8f9fa; /* Set text color */
+}
+
+.end-text-center h1 {
+    font-size: 50px; /* Adjust font size as needed */
+    font-weight: bold;
+    margin: 20px;
+}
+
+.end-text-center h3 {
+    font-size: 25px; /* Adjust font size as needed */
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.end-text-center p {
+    margin:20px;
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: justify-left;
+}
+
+#end-start-button {
+    margin:10px;
+}

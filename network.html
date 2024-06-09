@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合作网络</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="network-page">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="introduction.html">概述</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="author.html">作者</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="journal.html">期刊</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="topic.html">研究课题</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="network.html">合作网络</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="institution.html">机构</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="container" id="network-text">
+        <h2>作者合作网络</h2>
+        <div id="loading-message">
+            <p class="loading-text">Loading...</p>
+        </div>
+        <svg id="network-chart"></svg>
+        <div class="description-container">
+            <div class="description" id="network-text-desc">
+                <p>
+                    <br>在合作网络中，我们以每位作者为节点，作者间的合作情况为边，度数则代表了一位作者与他人合作并发表文章的次数。<br>
+                    <br>从合作网络的可视化中，我们发现：
+                    <br>（1）精英作者间的合作远比非精英作者密切，精英作者间的合作构成了中间交错复杂的网络，而大部分非精英作者的节点则零散分布于网络的周围。
+                    <br>（2）其中，一位精英作者与他人合作发表文章的次数达到了91次，而这也使得他的文章被引量大于31的几率高于其他作者。<br>
+                    <br>我们推测精英作者的出现除了个人研究水平、所研究的问题、所发表的期刊以及发表时间等因素外，也与研究者与他人合作的情况有一定关系。
+                    <br>除此以外，网络中也存在着一些明显呈簇状的精英作者合作的小型网络，这或许可以说明，精英作者间存在一些“抱团”发表文章的现象，
+                    但究竟是“抱团”后成为了精英作者还是“抱团”行为促成了精英作者的出现，还有待进一步的研究。
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/author_cooperation.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

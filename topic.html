@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究课题</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="topic-page">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="introduction.html">概述</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="author.html">作者</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="journal.html">期刊</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="topic.html">研究课题</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="network.html">合作网络</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="institution.html">机构</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="container" id="topic-text">
+        <h2>精英与非精英的研究课题差异</h2>
+        <div class="d-flex justify-content-between">
+            <div class="chart-container">
+                <p>精英研究课题</p>
+                <div id="chart1" class="topic-chart1-container"></div>
+            </div>
+            <div class="chart-container">
+                <p>非精英研究课题</p>
+                <div id="chart2" class="topic-chart2-container"></div>
+            </div>
+        </div>
+        <div class="description-container">
+            <div class="description">
+                <p>Elite与Non Elite在主题簇方面的主要区别如下:<br>
+                   <br>（1）颜色（聚类）：相同颜色在Elite图和Non-Elite图中代表类似的研究领域，显示出领域的相似性。比如，绿色集群在两个图中都与生命科学和医学相关。
+                   <br>（2） 多样性与专业化：非精英研究主题更加多样化，涵盖广泛的主题和跨学科合作。精英研究主题更为专业化，在特定高影响力领域内的合作更紧密和深入。
+                   <br>（3）连接密度：精英聚类的连接较少但更强，表明更集中和高影响力的合作。非精英聚类的连接较多但密度较低，显示出更广泛但不深入的合作。
+                   <br>（4）聚类组成：精英聚类更为紧密，显示出特定领域内强有力的合作和集中研究。非精英聚类较为分散，反映了广泛但不够深入的研究兴趣。
+                </p>
+            </div>
+        </div>
+        <h2>研究课题簇节点数量区别</h2>
+        <div class="d-flex justify-content-between">
+            <svg id="elite-chart"></svg>
+            <svg id="nonelite-chart"></svg>
+        </div>
+        <div class="description-container">
+            <div class="description">
+                <p>通过D3绘制了一个条形图，图中的每个条形表示不同群组的节点数量；条形的高度代表节点数量，条形上方的数字显示具体的节点数，颜色用于区分不同的群组。
+                </p>
+            </div>
+        </div>
+    </main>
+    
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/elite_topic_clustering.js"></script>
+    <script src="js/non_elite_topic_clustering.js"></script>
+    <script src="js/elite_topic_bar.js"></script>
+    <script src="js/non_elite_topic_bar.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
